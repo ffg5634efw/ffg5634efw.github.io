@@ -1,7 +1,7 @@
-.bg {
+.backgroundg_image {
     background: url(bg.png);
 }
-.h
+.header
 {
     font-size: 25px;
     font-family: "Franklin Gothic Medium";
@@ -12,7 +12,6 @@
     position: absolute;
     left: 91px;
     top: 145.5px;
-    z-index: 6;
     
 }
 .text
@@ -23,20 +22,44 @@
     line-height: 1.2;
     text-align: left;
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
-    z-index: 4;
    
 }
 .menu {
-    font-size: 17px;
-    font-family: "Franklin Gothic Medium";
-    color: rgba(177, 187, 203, 0.871);
-    line-height: 1.2;
-    text-align: left;
-    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
-    position: absolute;
-    left: 51px;
-    top: 78.526px;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium";
+  color: rgba(177, 187, 203, 0.871);
+  line-height: 1.2;
+  text-align: left;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.65);
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 45px;
+  left: -10px;
+    
   }
+  .UM {
+    position: relative;
+    top: 0px;
+    left: 15px;
+  }
+  .Author {
+    position: relative;
+    top: 0px;
+    left: 39px;
+  }
+  .Album {
+    position: relative;
+    top: 0px;
+    left: 51px;
+  }
+  .Technology {
+    position: relative;
+    top: 0px;
+    left: 65px;
+  }
+
   .img {
     background-image: url("bgimg.png");
     position: absolute;
